@@ -1,0 +1,39 @@
+• The age of a person in a form for a database with millions of records.
+VARIABLE TYPE: int
+    A ‘char’ is more than enough for a database because the human age rarely exceeds 120.
+
+• The age of a person in days for a program in which we want to add or subtract
+an arbitrary number of days.
+VARIABLE TYPE: int
+    It is easier to add or subtract someone's age if we consider the variable as an “int”.
+
+• A student’s grade.
+VARIABLE TYPE: int
+    A student's grade is usually an integer, at least in Peru, so to manipulate the grade, 
+    it has to be an 'int'.
+
+• The average amount of rainfall in the month of February.
+VARIABLE TYPE: float
+    Precipitation is usually measured with decimals, so float would be more appropriate.
+
+
+• The angle of rotation of a robot surgeon to be broadcast over the internet.
+VARIABLE TYPE: float/double
+    It should be float or double for accuracy, since angles require decimals.
+
+• The size of your backyard.
+VARIABLE TYPE: float
+    Area measurements usually have decimals.
+
+• The number of stars in the universe.
+VARIABLE TYPE: double
+    These are very large quantities.
+
+• The balance of your bank account.
+VARIABLE TYPE: float
+    Bank balances include decimals (cents), so you should use float or better yet double 
+    to avoid rounding errors.
+
+• The position of a particle in a high-resolution game.
+VARIABLE TYPE: float
+    The positions can have decimals, so that the movement is smoother.
